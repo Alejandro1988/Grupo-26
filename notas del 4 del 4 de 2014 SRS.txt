@@ -1,0 +1,23 @@
+nota del srs
+cambiar fecha a abril 2014
+ficha=>vacia
+borrar lo de abajo de introduccion
+definiciones completar
+agregar vercion al nombre del producto (v 1.0 o 0.1 y poner el 1.0 cuando sea funcioal)
+alcanze contrato entra ambas partes
+IEEE autor: IEEE
+resumen: describir que contienene cada capitulo (corto)
+tipo de base de datos a usar, describir
+evolucion: explayarse mas, explicar para que serviria cada expancion
+agregar imagen de pantalla(la esta haciendo ivan)
+poner NA en vez de No Aplica
+req funcionales se describiran en forma de historiales de usiarios (plantilla)
+req de rendimiento 95% de las trans exitosas 500 trans simultanes
+seguridad como encriptar las claves(¿hash?)
+como va a hacer el backup (frecuencia, forma y tiempo que se lo mantiene)
+la ley va en otros requisitos
+agregarla a referencias
+fiabilidad
+fallas cada 1000 transacions=5
+mantenibilidad expandir y hacer que paresca mas a un contrato
+apendice= NA
