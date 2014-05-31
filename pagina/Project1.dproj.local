@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/04/06 22:53:22.867.pas,C:\Users\ivan\Documents\RAD Studio\Projects\Unit1.pas=C:\Users\ivan\Documents\delphi\pagina\Unit1.pas</Transaction>
+    <Transaction>2014/04/06 22:53:22.878.dfm,C:\Users\ivan\Documents\RAD Studio\Projects\Unit1.dfm=C:\Users\ivan\Documents\delphi\pagina\Unit1.dfm</Transaction>
+    <Transaction>2014/04/06 22:53:42.878.dproj,C:\Users\ivan\Documents\RAD Studio\Projects\Project1.dproj=C:\Users\ivan\Documents\delphi\pagina\Project1.dproj</Transaction>
+    <Transaction>2014/05/31 17:24:53.413.pas,C:\Users\alejrandro\Favorites\Documentos\GitHub\Grupo-26\pagina\Unit4.pas=C:\Users\alejrandro\Favorites\Documentos\GitHub\Grupo-26\pagina\Libros.pas</Transaction>
+    <Transaction>2014/05/31 17:24:53.413.dfm,C:\Users\alejrandro\Favorites\Documentos\GitHub\Grupo-26\pagina\Unit4.dfm=C:\Users\alejrandro\Favorites\Documentos\GitHub\Grupo-26\pagina\Libros.dfm</Transaction>
+    <Transaction>2014/05/31 17:43:44.833.pas,C:\Users\alejrandro\Favorites\Documentos\GitHub\Grupo-26\pagina\Unit4.pas=C:\Users\alejrandro\Favorites\Documentos\GitHub\Grupo-26\pagina\ModuloDatos.pas</Transaction>
+    <Transaction>2014/05/31 17:43:44.833.dfm,C:\Users\alejrandro\Favorites\Documentos\GitHub\Grupo-26\pagina\Unit4.dfm=C:\Users\alejrandro\Favorites\Documentos\GitHub\Grupo-26\pagina\ModuloDatos.dfm</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="Unit1.pas"/>
+    <File Path="Unit1.dfm"/>
+    <File Path="Unit2.pas"/>
+    <File Path="Unit2.dfm"/>
+    <File Path="Unit3.pas"/>
+    <File Path="Unit3.dfm"/>
+    <File Path="Libros.pas"/>
+    <File Path="Libros.dfm"/>
+    <File Path="ModuloDatos.pas"/>
+    <File Path="ModuloDatos.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>

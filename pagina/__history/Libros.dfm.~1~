@@ -1,0 +1,32 @@
+object Administrar_Libros: TAdministrar_Libros
+  Left = 0
+  Top = 0
+  Caption = 'Administrar Libros'
+  ClientHeight = 577
+  ClientWidth = 799
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 106
+  TextHeight = 14
+  object Label3: TLabel
+    Left = 32
+    Top = 116
+    Width = 102
+    Height = 24
+    Caption = 'Direccion:'
+    Color = clMenuBar
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clPurple
+    Font.Height = -21
+    Font.Name = 'Tekton Pro Ext'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    Transparent = False
+  end
+end
