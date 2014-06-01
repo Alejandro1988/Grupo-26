@@ -4,7 +4,7 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, StdCtrls, dblookup, Mask, DBCtrls;
+  Dialogs, StdCtrls;
 
 type
   TAdministrar_Libros = class(TForm)
@@ -16,14 +16,14 @@ type
     l_precio: TLabel;
     l_autor: TLabel;
     l_titulo: TLabel;
-    c_idiomas: TDBLookupCombo;
-    c_categorias: TDBLookupCombo;
-    e_isbn: TDBEdit;
-    e_titulo: TDBEdit;
-    e_autor: TDBEdit;
-    e_paginas: TDBEdit;
-    e_precio: TDBEdit;
-    e_edicion: TDBEdit;
+    e_isbn: TEdit;
+    Edit2: TEdit;
+    Edit3: TEdit;
+    Edit4: TEdit;
+    Edit5: TEdit;
+    Edit6: TEdit;
+    Edit7: TEdit;
+    ComboBox1: TComboBox;
   private
     { Private declarations }
   public
@@ -34,8 +34,6 @@ var
   Administrar_Libros: TAdministrar_Libros;
 
 implementation
-
-uses ModuloDatos;
 
 {$R *.dfm}
 

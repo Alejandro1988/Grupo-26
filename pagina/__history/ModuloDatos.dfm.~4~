@@ -1,4 +1,4 @@
-object Modulo: TModulo
+object ModuloDaros: TModuloDaros
   OldCreateOrder = False
   Height = 544
   Width = 587

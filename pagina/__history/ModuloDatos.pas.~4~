@@ -6,7 +6,7 @@ uses
   SysUtils, Classes, DB, ADODB;
 
 type
-  TModulo = class(TDataModule)
+  TModuloDaros = class(TDataModule)
     coneccion: TADOConnection;
     Tabla_libros: TADOTable;
     ds_libros: TDataSource;
@@ -23,7 +23,7 @@ type
   end;
 
 var
-  Modulo: TModulo;
+  ModuloDaros: TModuloDaros;
 
 implementation
 

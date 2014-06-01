@@ -56,7 +56,7 @@
 				<Form>Administrar_Libros</Form>
 			</DCCReference>
 			<DCCReference Include="ModuloDatos.pas">
-				<Form>DataModule4</Form>
+				<Form>Modulo</Form>
 				<DesignClass>TDataModule</DesignClass>
 			</DCCReference>
 			<BuildConfiguration Include="Base">

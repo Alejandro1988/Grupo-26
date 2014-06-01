@@ -16,14 +16,14 @@ type
     l_precio: TLabel;
     l_autor: TLabel;
     l_titulo: TLabel;
-    c_idiomas: TDBLookupCombo;
-    c_categorias: TDBLookupCombo;
+    DBLookupCombo1: TDBLookupCombo;
+    DBLookupCombo2: TDBLookupCombo;
     e_isbn: TDBEdit;
-    e_titulo: TDBEdit;
-    e_autor: TDBEdit;
-    e_paginas: TDBEdit;
-    e_precio: TDBEdit;
-    e_edicion: TDBEdit;
+    DBEdit2: TDBEdit;
+    DBEdit3: TDBEdit;
+    DBEdit4: TDBEdit;
+    DBEdit5: TDBEdit;
+    DBEdit6: TDBEdit;
   private
     { Private declarations }
   public

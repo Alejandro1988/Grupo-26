@@ -117,76 +117,68 @@ object Administrar_Libros: TAdministrar_Libros
     Font.Style = [fsBold]
     ParentFont = False
   end
-  object c_idiomas: TDBLookupCombo
-    Left = 208
-    Top = 399
-    Width = 121
-    Height = 25
-    DataField = 'Idioma'
-    DataSource = Modulo.ds_libros
-    TabOrder = 0
-  end
-  object c_categorias: TDBLookupCombo
-    Left = 208
-    Top = 495
-    Width = 121
-    Height = 25
-    DataField = 'Id_categoria'
-    DataSource = Modulo.ds_libros
-    TabOrder = 1
-  end
-  object e_isbn: TDBEdit
-    Left = 208
+  object e_isbn: TEdit
+    Left = 192
     Top = 159
     Width = 121
     Height = 22
-    DataField = 'ISBN'
-    DataSource = Modulo.ds_libros
-    TabOrder = 2
+    TabOrder = 0
+    Text = 'e_isbn'
   end
-  object e_titulo: TDBEdit
-    Left = 208
-    Top = 207
-    Width = 121
-    Height = 22
-    DataField = 'Titulo'
-    DataSource = Modulo.ds_libros
-    TabOrder = 3
-  end
-  object e_autor: TDBEdit
-    Left = 208
+  object Edit2: TEdit
+    Left = 192
     Top = 255
     Width = 121
     Height = 22
-    DataField = 'Autor'
-    DataSource = Modulo.ds_libros
-    TabOrder = 4
+    TabOrder = 1
+    Text = 'Edit2'
   end
-  object e_paginas: TDBEdit
-    Left = 208
+  object Edit3: TEdit
+    Left = 192
+    Top = 207
+    Width = 121
+    Height = 22
+    TabOrder = 2
+    Text = 'Edit3'
+  end
+  object Edit4: TEdit
+    Left = 192
     Top = 303
     Width = 121
     Height = 22
-    DataField = 'Cant_pag'
-    DataSource = Modulo.ds_libros
-    TabOrder = 5
+    TabOrder = 3
+    Text = 'Edit4'
   end
-  object e_precio: TDBEdit
-    Left = 208
+  object Edit5: TEdit
+    Left = 192
     Top = 351
     Width = 121
     Height = 22
-    DataField = 'Precio'
-    DataSource = Modulo.ds_libros
-    TabOrder = 6
+    TabOrder = 4
+    Text = 'Edit5'
   end
-  object e_edicion: TDBEdit
-    Left = 208
+  object Edit6: TEdit
+    Left = 192
+    Top = 399
+    Width = 121
+    Height = 22
+    TabOrder = 5
+    Text = 'Edit6'
+  end
+  object Edit7: TEdit
+    Left = 192
     Top = 447
     Width = 121
     Height = 22
-    DataField = 'Fec_Edicion'
-    DataSource = Modulo.ds_libros
+    TabOrder = 6
+    Text = 'Edit7'
+  end
+  object ComboBox1: TComboBox
+    Left = 192
+    Top = 495
+    Width = 145
+    Height = 22
     TabOrder = 7
+    Text = 'ComboBox1'
   end
 end

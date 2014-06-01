@@ -117,76 +117,61 @@ object Administrar_Libros: TAdministrar_Libros
     Font.Style = [fsBold]
     ParentFont = False
   end
-  object c_idiomas: TDBLookupCombo
-    Left = 208
-    Top = 399
+  object DBLookupCombo1: TDBLookupCombo
+    Left = 192
+    Top = 400
     Width = 121
     Height = 25
-    DataField = 'Idioma'
-    DataSource = Modulo.ds_libros
     TabOrder = 0
   end
-  object c_categorias: TDBLookupCombo
-    Left = 208
-    Top = 495
+  object DBLookupCombo2: TDBLookupCombo
+    Left = 192
+    Top = 512
     Width = 121
     Height = 25
-    DataField = 'Id_categoria'
-    DataSource = Modulo.ds_libros
     TabOrder = 1
   end
   object e_isbn: TDBEdit
-    Left = 208
+    Left = 192
     Top = 159
     Width = 121
     Height = 22
-    DataField = 'ISBN'
-    DataSource = Modulo.ds_libros
+    DataSource = ModuloDaros.ds_libros
     TabOrder = 2
   end
-  object e_titulo: TDBEdit
-    Left = 208
+  object DBEdit2: TDBEdit
+    Left = 192
     Top = 207
     Width = 121
     Height = 22
-    DataField = 'Titulo'
-    DataSource = Modulo.ds_libros
     TabOrder = 3
   end
-  object e_autor: TDBEdit
-    Left = 208
+  object DBEdit3: TDBEdit
+    Left = 192
     Top = 255
     Width = 121
     Height = 22
-    DataField = 'Autor'
-    DataSource = Modulo.ds_libros
     TabOrder = 4
   end
-  object e_paginas: TDBEdit
-    Left = 208
+  object DBEdit4: TDBEdit
+    Left = 192
     Top = 303
     Width = 121
     Height = 22
-    DataField = 'Cant_pag'
-    DataSource = Modulo.ds_libros
     TabOrder = 5
   end
-  object e_precio: TDBEdit
-    Left = 208
+  object DBEdit5: TDBEdit
+    Left = 192
     Top = 351
     Width = 121
     Height = 22
-    DataField = 'Precio'
-    DataSource = Modulo.ds_libros
     TabOrder = 6
   end
-  object e_edicion: TDBEdit
-    Left = 208
+  object DBEdit6: TDBEdit
+    Left = 192
     Top = 447
     Width = 121
     Height = 22
-    DataField = 'Fec_Edicion'
-    DataSource = Modulo.ds_libros
     TabOrder = 7
   end
 end
