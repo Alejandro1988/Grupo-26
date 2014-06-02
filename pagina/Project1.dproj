@@ -53,7 +53,7 @@
 				<Form>Form3</Form>
 			</DCCReference>
 			<DCCReference Include="Libros.pas">
-				<Form>Administrar_Libros</Form>
+				<Form>f_libros</Form>
 			</DCCReference>
 			<DCCReference Include="ModuloDatos.pas">
 				<Form>Modulo</Form>

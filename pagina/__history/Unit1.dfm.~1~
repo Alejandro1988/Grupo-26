@@ -2,48 +2,47 @@ object Form1: TForm1
   Left = 0
   Top = 0
   Caption = 'Principal'
-  ClientHeight = 686
-  ClientWidth = 940
+  ClientHeight = 498
+  ClientWidth = 695
   Color = clWindow
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
-  Font.Height = -12
+  Font.Height = -11
   Font.Name = 'Tahoma'
   Font.Style = []
   OldCreateOrder = False
   OnCreate = FormCreate
-  PixelsPerInch = 106
-  TextHeight = 14
+  PixelsPerInch = 96
+  TextHeight = 13
   object Image1: TImage
-    Left = 318
-    Top = 41
-    Width = 416
-    Height = 475
+    Left = 295
+    Top = 38
+    Width = 387
+    Height = 441
   end
   object Image2: TImage
-    Left = 33
-    Top = -7
-    Width = 829
-    Height = 138
-    Stretch = True
+    Left = 8
+    Top = 8
+    Width = 378
+    Height = 113
   end
   object Image3: TImage
-    Left = 686
-    Top = 102
-    Width = 61
-    Height = 47
+    Left = 637
+    Top = 95
+    Width = 57
+    Height = 43
     Cursor = crHandPoint
   end
   object Label1: TLabel
-    Left = 517
-    Top = 20
+    Left = 480
+    Top = 19
     Width = 44
-    Height = 15
+    Height = 13
     Caption = 'Usuario'
     Color = clWhite
     Font.Charset = ANSI_CHARSET
     Font.Color = clPurple
-    Font.Height = -12
+    Font.Height = -11
     Font.Name = 'Tekton Pro Ext'
     Font.Style = [fsBold]
     ParentColor = False
@@ -51,15 +50,15 @@ object Form1: TForm1
     Transparent = False
   end
   object Label2: TLabel
-    Left = 517
-    Top = 41
-    Width = 66
-    Height = 15
+    Left = 480
+    Top = 38
+    Width = 69
+    Height = 13
     Caption = 'Contrase'#241'a'
     Color = clWhite
     Font.Charset = ANSI_CHARSET
     Font.Color = clPurple
-    Font.Height = -12
+    Font.Height = -11
     Font.Name = 'Tekton Pro Ext'
     Font.Style = [fsBold]
     ParentColor = False
@@ -67,16 +66,16 @@ object Form1: TForm1
     Transparent = False
   end
   object Label3: TLabel
-    Left = 604
-    Top = 102
-    Width = 67
-    Height = 15
+    Left = 561
+    Top = 95
+    Width = 70
+    Height = 13
     Cursor = crHandPoint
     Caption = 'Registrarse'
     Color = clWhite
     Font.Charset = ANSI_CHARSET
     Font.Color = clPurple
-    Font.Height = -12
+    Font.Height = -11
     Font.Name = 'Tekton Pro Ext'
     Font.Style = [fsBold]
     ParentColor = False
@@ -85,41 +84,29 @@ object Form1: TForm1
     OnClick = Label3Click
   end
   object Label4: TLabel
-    Left = 604
-    Top = 123
-    Width = 128
-    Height = 15
+    Left = 561
+    Top = 114
+    Width = 131
+    Height = 13
     Cursor = crHandPoint
     Caption = 'Recuperar contrase'#241'a'
     Font.Charset = ANSI_CHARSET
     Font.Color = clPurple
-    Font.Height = -12
+    Font.Height = -11
     Font.Name = 'Tekton Pro Ext'
     Font.Style = [fsBold]
     ParentFont = False
   end
-  object Shape1: TShape
-    Left = 608
-    Top = 552
-    Width = 65
-    Height = 65
-  end
-  object Shape2: TShape
-    Left = 312
-    Top = 576
-    Width = 65
-    Height = 65
-  end
   object GroupBox1: TGroupBox
-    Left = 9
-    Top = 137
-    Width = 302
-    Height = 372
+    Left = 8
+    Top = 127
+    Width = 281
+    Height = 346
     Caption = 'Categorias'
     Color = clWhite
     Font.Charset = ANSI_CHARSET
     Font.Color = clPurple
-    Font.Height = -22
+    Font.Height = -21
     Font.Name = 'Tekton Pro Ext'
     Font.Style = [fsBold]
     ParentBackground = False
@@ -127,10 +114,10 @@ object Form1: TForm1
     ParentFont = False
     TabOrder = 0
     object DBListBox1: TDBListBox
-      Left = 17
-      Top = 41
-      Width = 268
-      Height = 313
+      Left = 16
+      Top = 38
+      Width = 249
+      Height = 291
       Color = clMenu
       ItemHeight = 26
       ParentCtl3D = False
@@ -138,105 +125,59 @@ object Form1: TForm1
       Visible = False
     end
     object GroupBox2: TGroupBox
-      Left = 302
-      Top = 181
-      Width = 199
-      Height = 113
+      Left = 280
+      Top = 168
+      Width = 185
+      Height = 105
       Caption = 'GroupBox2'
       TabOrder = 1
     end
   end
   object DBEdit1: TDBEdit
-    Left = 318
-    Top = 137
-    Width = 337
-    Height = 22
+    Left = 295
+    Top = 127
+    Width = 313
+    Height = 21
     TabOrder = 1
   end
   object Button1: TButton
-    Left = 654
-    Top = 135
-    Width = 80
-    Height = 28
+    Left = 607
+    Top = 125
+    Width = 75
+    Height = 26
     Caption = 'BUSCAR'
     TabOrder = 2
   end
   object DBListBox2: TDBListBox
-    Left = 318
-    Top = 169
-    Width = 416
-    Height = 194
-    ItemHeight = 14
+    Left = 295
+    Top = 157
+    Width = 387
+    Height = 180
+    ItemHeight = 13
     TabOrder = 3
     Visible = False
   end
   object Edit1: TEdit
-    Left = 603
-    Top = 12
-    Width = 130
-    Height = 22
+    Left = 560
+    Top = 11
+    Width = 121
+    Height = 21
     TabOrder = 4
   end
   object Edit2: TEdit
-    Left = 604
-    Top = 41
-    Width = 130
-    Height = 22
+    Left = 561
+    Top = 38
+    Width = 121
+    Height = 21
     TabOrder = 5
   end
   object Button2: TButton
-    Left = 603
-    Top = 70
-    Width = 131
-    Height = 26
+    Left = 560
+    Top = 65
+    Width = 122
+    Height = 24
     Caption = 'Entrar'
     TabOrder = 6
     OnClick = Button2Click
-  end
-  object p_libros: TPanel
-    AlignWithMargins = True
-    Left = 756
-    Top = 201
-    Width = 129
-    Height = 153
-    TabOrder = 7
-    object Label5: TLabel
-      Left = 24
-      Top = 13
-      Width = 82
-      Height = 28
-      Alignment = taCenter
-      Caption = 'Administracion de Libros'
-      WordWrap = True
-    end
-    object b_crear: TButton
-      AlignWithMargins = True
-      Left = 17
-      Top = 52
-      Width = 96
-      Height = 23
-      Margins.Left = 5
-      Caption = 'Crear'
-      TabOrder = 0
-    end
-    object b_edtar: TButton
-      Left = 17
-      Top = 81
-      Width = 96
-      Height = 23
-      Align = alCustom
-      Caption = 'Editar'
-      TabOrder = 1
-      OnClick = b_edtarClick
-    end
-    object b_eliminar: TButton
-      Left = 17
-      Top = 110
-      Width = 96
-      Height = 23
-      Align = alCustom
-      Caption = 'Eliminar'
-      TabOrder = 2
-    end
   end
 end

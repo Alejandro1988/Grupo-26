@@ -45,7 +45,7 @@ implementation
 
 procedure TForm2.FormCreate(Sender: TObject);
 begin
-Image1.Picture.LoadFromFile('C:\Users\ivan\Documents\delphi\pagina\fondoF3.bmp');
+Image1.Picture.LoadFromFile('fondoF3.bmp');
 end;
 
 end.

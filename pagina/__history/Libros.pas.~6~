@@ -7,7 +7,7 @@ uses
   Dialogs, StdCtrls, dblookup, Mask, DBCtrls;
 
 type
-  Tf_libros = class(TForm)
+  TAdministrar_Libros = class(TForm)
     l_isbn: TLabel;
     l_paginas: TLabel;
     l_idioma: TLabel;
@@ -31,7 +31,7 @@ type
   end;
 
 var
-  f_libros: Tf_libros;
+  Administrar_Libros: TAdministrar_Libros;
 
 implementation
 

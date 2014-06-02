@@ -30,7 +30,6 @@ type
     b_eliminar: TButton;
     Label5: TLabel;
     Shape1: TShape;
-    Shape2: TShape;
     procedure FormCreate(Sender: TObject);
     procedure Label3Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
@@ -62,9 +61,9 @@ end;
 
 procedure TForm1.FormCreate(Sender: TObject);
 begin
-Image1.Picture.LoadFromFile('fondo.bmp');
-Image2.Picture.LoadFromFile('Logo.bmp');
-Image3.Picture.LoadFromFile('carrito.bmp');
+Image1.Picture.LoadFromFile('C:\Users\ivan\Documents\delphi\pagina\fondo.bmp');
+Image2.Picture.LoadFromFile('C:\Users\ivan\Documents\delphi\pagina\Logo.bmp');
+Image3.Picture.LoadFromFile('C:\Users\ivan\Documents\delphi\pagina\carrito.bmp');
 end;
 
 procedure TForm1.Label3Click(Sender: TObject);

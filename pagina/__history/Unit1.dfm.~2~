@@ -21,11 +21,10 @@ object Form1: TForm1
     Height = 475
   end
   object Image2: TImage
-    Left = 33
-    Top = -7
-    Width = 829
-    Height = 138
-    Stretch = True
+    Left = 9
+    Top = 9
+    Width = 407
+    Height = 121
   end
   object Image3: TImage
     Left = 686
@@ -97,18 +96,6 @@ object Form1: TForm1
     Font.Name = 'Tekton Pro Ext'
     Font.Style = [fsBold]
     ParentFont = False
-  end
-  object Shape1: TShape
-    Left = 608
-    Top = 552
-    Width = 65
-    Height = 65
-  end
-  object Shape2: TShape
-    Left = 312
-    Top = 576
-    Width = 65
-    Height = 65
   end
   object GroupBox1: TGroupBox
     Left = 9

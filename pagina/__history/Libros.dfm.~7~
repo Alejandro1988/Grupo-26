@@ -1,4 +1,4 @@
-object f_libros: Tf_libros
+object Administrar_Libros: TAdministrar_Libros
   Left = 0
   Top = 0
   Caption = 'Administrar Libros'
