@@ -1,0 +1,20 @@
+maximizar la primer ventana
+agregar al pivotal el listado de libros
+vaciar los edits de autor
+vaciar los edits al cerrar la ventana
+ayuda en los edit de autor
+campo vacios, no mostrara mensaje de caracter no valido
+diferenciar autores, poner nacionalidad obligatoria o algo
+verificar que los autores sean disitintos en el crear y en el modificar
+tablas seleccionar fila y no campo, para evitar la edicion
+autor inicial en el combobox en modificar libro
+libros: prevenir la escritura de letras en los campos del modificar
+que no se permita el ingreso de caracteres no validos
+que se borren los caracteres no validos o no se puedan ingresar
+agregar sugerencias debajo de cada campo
+ayuda con el foco del cursor y no del mouse
+especificar mas en los carteles: caracter no valido, debe ingresar letras
+buscar autor
+en alta de libro permitir escribir y sugerir nombre
+vaciar campos en cada alta/modificacion
+no permitir isbn duplicados
