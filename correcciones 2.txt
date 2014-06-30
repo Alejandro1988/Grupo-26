@@ -1,0 +1,13 @@
+cerrar secion: carrito de compras
+entregados ver si funciona bien los libros mostrados
+en pivotal: mirar los de categoria y sacar los de autor y titulo
+en fechas poner un almanaque y permitir escribir a la ves
+que solo se pertmita ingresar numeros o / en el campo fecha
+que solo se permita ingresar numeros en campos numericos (mascaras?)
+verificar que fecha de defuncion sear posterior a nacimiento (no lo dijo pero por las dudas)
+no debe mostrarse el hojear y descripcion en administracion de libros
+buscar: iniciar con los 2 criterios marcados
+mensajes emergentes: cambiar el titulo y el mensaje (no anote cual mensaje era)
+ver si se puede hacer el false en entregas para acces (opcional)
+como usuario registrado quiero ver el estado de mi compra
+en registrarse: marca de tarjeta de creito
