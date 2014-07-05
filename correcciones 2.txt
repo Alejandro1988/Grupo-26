@@ -1,15 +1,15 @@
 x    cerrar secion: carrito de compras
 x    entregados ver si funciona bien los libros mostrados
-    en pivotal: mirar los de categoria y sacar los de autor y titulo
-    en fechas poner un almanaque y permitir escribir a la ves
-    que solo se pertmita ingresar numeros o / en el campo fecha
-    que solo se permita ingresar numeros en campos numericos (mascaras?)
+x    en pivotal: mirar los de categoria y sacar los de autor y titulo
+x   en fechas poner un almanaque y permitir escribir a la ves
+x    que solo se pertmita ingresar numeros o / en el campo fecha
+x    que solo se permita ingresar numeros en campos numericos (mascaras?)
 X    verificar que fecha de defuncion sear posterior a nacimiento (no lo dijo pero por las dudas)
 x    no debe mostrarse el hojear y descripcion en administracion de libros
 X    buscar: iniciar con los 2 criterios marcados
-    mensajes emergentes: cambiar el titulo y el mensaje (no anote cual mensaje era)
+x    mensajes emergentes: cambiar el titulo y el mensaje de confirmar compra
     ver si se puede hacer el false en entregas para acces (opcional)
-    como usuario registrado quiero ver el estado de mi compra
+x    como usuario registrado quiero ver el estado de mi compra
 x    en registrarse: marca de tarjeta de creito
 
 
